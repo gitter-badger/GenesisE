@@ -98,7 +98,8 @@ Any issue in the **"To Do"** pipeline can be picked up and worked on by anyone w
 Once you've found an issue you like in the **"To Do"** pipeline, assign it to yourself (if not already assigned) and move the issue to 
 **"In Progress"** pipeline.
 #### Feature Branch
-When the issue is all setup on ZenHub's board, the feature branch needs to be created, branching off of latest **develop** branch.
+When the issue is all setup on ZenHub's board, the feature branch needs to be created, branching off of latest **develop** or if the issue
+has an epic link, the respective **epic** branch.
 The feature branch should be named following this structure: "feature/{initials}\_{issue_id}\_{summary}". Note that since git 
 branches doesn't allow space characters, underscores are used instead.
 > e.g. `feature/MP_MySampleProject-1_An_Example_Issue_Summary`
